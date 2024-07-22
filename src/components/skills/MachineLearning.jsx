@@ -10,22 +10,22 @@ const MachineLearning = () => {
                     <div className="skills__data">
                         <HiCheckBadge />
                         <div>
-                            <h3 className="skills__name">Python</h3>
-                            <span className="skills__level">Advanced</span>
-                        </div>
-                    </div>
-                    <div className="skills__data">
-                        <HiCheckBadge />
-                        <div>
-                            <h3 className="skills__name">TensorFlow</h3>
+                            <h3 className="skills__name">Numpy</h3>
                             <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
                     <div className="skills__data">
                         <HiCheckBadge />
                         <div>
-                            <h3 className="skills__name">Keras</h3>
-                            <span className="skills__level">Intermediate</span>
+                            <h3 className="skills__name">PyTorch</h3>
+                            <span className="skills__level">Basic</span>
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <HiCheckBadge />
+                        <div>
+                            <h3 className="skills__name">Pandas</h3>
+                            <span className="skills__level">Basic</span>
                         </div>
                     </div>
                 </div>
@@ -33,22 +33,22 @@ const MachineLearning = () => {
                     <div className="skills__data">
                         <HiCheckBadge />
                         <div>
-                            <h3 className="skills__name">Scikit-Learn</h3>
+                            <h3 className="skills__name">Juypter</h3>
                             <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
                     <div className="skills__data">
                         <HiCheckBadge />
                         <div>
-                            <h3 className="skills__name">Pandas</h3>
+                            <h3 className="skills__name">Statisics</h3>
                             <span className="skills__level">Intermediate</span>
                         </div>
                     </div>
                     <div className="skills__data">
                         <HiCheckBadge />
                         <div>
-                            <h3 className="skills__name">NumPy</h3>
-                            <span className="skills__level">Intermediate</span>
+                            <h3 className="skills__name">Linear Algebra</h3>
+                            <span className="skills__level">Basic</span>
                         </div>
                     </div>
                 </div>
