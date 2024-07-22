@@ -1,7 +1,8 @@
 .skills__container {
-    grid-template-columns: repeat(2, 350px);
-    column-gap: 3rem;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 2rem;
 }
 
 .skills__content {
@@ -9,6 +10,8 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 2rem 4rem;
     border-radius: 1.25rem;
+    flex: 1 1 300px; /* Adjust the width for responsiveness */
+    max-width: 400px; /* Prevents the element from stretching too much */
 }
 
 .skills__title {
@@ -52,17 +55,21 @@
 
 /* BREAK POINTS */
 @media screen and (max-width: 992px) {
-   .skills__container {
-    grid-template-columns: max-content;
-    row-gap: 2rem;
-   }
+    .skills__container {
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skills__container {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 576px) {
-    .skills__container {
-        grid-template-columns: 1fr;
-    }
-
     .skills__content {
         padding: 1.5rem;
     }
