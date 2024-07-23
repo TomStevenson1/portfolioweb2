@@ -1,16 +1,20 @@
-import React from 'react';
-import { HiOutlineArrowSmRight } from "react-icons/hi";
+import React from "react";
+import { projectsData } from "./Data";
 
-const ProjectItems = ({item}) => {
+const ProjectItems = () => {
   return (
-        <div className="project__card" key={item.id}>
-            <img className="project__img" src={item.image} alt="" />
-            <h3 className="project__title">{item.title}</h3>
-            <a href="#" className="project__button">
-                Demo <HiOutlineArrowSmRight className="project__button-icon" />
-            </a>
+    <>
+      {projectsData.map((project) => (
+        <div className="project__card" key={project.id}>
+          <img src={project.image} alt={project.title} className="project__img" />
+          <h3 className="project__title">{project.title}</h3>
+          <a href={project.link} className="project__button" target="_blank" rel="noopener noreferrer">
+            Link <i className="bx bx-right-arrow-alt project__button-icon"></i>
+          </a>
         </div>
-    );
-}
+      ))}
+    </>
+  );
+};
 
 export default ProjectItems;

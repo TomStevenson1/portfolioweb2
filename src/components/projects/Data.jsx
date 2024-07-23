@@ -1,40 +1,27 @@
-import Project1 from "../../assets/project1.webp";
-import Project2 from "../../assets/project2.webp";
-import Project3 from "../../assets/project3.webp";
-
+import Project1 from "../../assets/WorkInProgress.jpg";
+import Project2 from "../../assets/credit-card-fraud-detection-solutions.png";
+import Project3 from "../../assets/a_-search-algorithm-1.png";
+import Project4 from "../../assets/speech-to-text2-1.jpg";
 
 export const projectsData = [
     {
         id: 1,
         image: Project1,
-        title: "Project 1",
-        category: "A",
+        title: "Spatial Transcriptomics Software",
     },
     {
         id: 2,
         image: Project2,
-        title: "Project 2",
-        category: "B",
+        title: "Credit Card Fraud Detection",
     },
     {
         id: 3,
         image: Project3,
-        title: "Project 3",
-        category: "C",
-    },
-];
-
-export const projectsNav = [
-    {
-        name: "All",
+        title: "A* Algorithm Visualization",
     },
     {
-        name: "A",
-    },
-    {
-        name: "B",
-    },
-    {
-        name: "C",
-    },
+        id: 4,
+        image: Project4,
+        title: "Speech to Text Recognition",
+    }
 ];
