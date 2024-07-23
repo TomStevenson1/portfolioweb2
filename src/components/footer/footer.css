@@ -1,3 +1,4 @@
+/* Footer Styles */
 .footer {
     background-color: var(--container-color);
     border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -51,9 +52,52 @@
     font-size: var(--smaller-font-size);
 }
 
+/* Hide special footer globally */
+.special-footer {
+    display: none !important;
+}
+
+/* Hide nav__menu on smaller screens */
+@media screen and (max-width: 576px) {
+    .nav__menu {
+        display: none !important;
+    }
+}
+
+/* Adjust show-menu on smaller screens */
+@media screen and (max-width: 768px) {
+    .show-menu {
+        /* bottom: 0; */
+    }
+}
+
 /* BREAK POINTS */
 @media screen and (max-width: 992px) {
     .footer__social-icon {
         font-size: 1rem;
+    }
+}
+
+/* Scroll-Up Icon Styles */
+.scroll-up {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: var(--highlight-color);
+    color: var(--container-color);
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: none;
+    transition: all 0.3s;
+}
+
+.scroll-up.show {
+    display: block;
+}
+
+/* Show scroll-up icon on smaller screens */
+@media screen and (max-width: 576px) {
+    .scroll-up {
+        display: block;
     }
 }

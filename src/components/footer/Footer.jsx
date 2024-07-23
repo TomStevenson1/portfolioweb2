@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./footer.css";
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import { SiLeetcode } from 'react-icons/si';
 
 const Footer = () => {
+  const [lastUpdated] = useState('July 24, 2024');
+
   return (
     <footer className="footer">
         <div className="footer__container container">
@@ -14,9 +16,6 @@ const Footer = () => {
                 </li>
                 <li>
                     <a href="#portfolio" className="footer__link">Projects</a>
-                </li>
-                <li>
-                    <a href="#testimonials" className="footer__link">Testimonials</a>
                 </li>
             </ul>
             <div className="footer__social">
@@ -30,11 +29,14 @@ const Footer = () => {
                     <SiLeetcode />
                 </a>    
             </div>
-            <span className="footer__copy"></span>
+            <span className="footer__copy">
+                Design inspired by Cryptical Coder
+                <br />
+                Last updated: {lastUpdated}
+            </span>
         </div>
     </footer>
   );
 }
 
 export default Footer;
-

@@ -9,7 +9,7 @@
     --sat: 0%;
     --title-color: hsl(var(--hue), var(--sat), 20%);
     /* --title-color-dark: hsl(var(--hue), var(--sat), 0%); */
-    --title-color-dark: hsl(75, 46%, 51%);
+    --title-color-dark: hsla(196, 38%, 50%, 0.93); /* Current: Blue. Changes highlight color */
     --text-color: hsl(var(--hue), var(--sat), 46%);
     --body-color: hsl(var(--hue), var(--sat), 98%);
     --container-color: #fff;
