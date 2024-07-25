@@ -8,14 +8,13 @@ const About = () => {
   return (
     <section className="about section" id="about">
         <h2 className="section__title">About Me</h2>
+        <span className="section__subtitle">A little background about myself</span>
         <div className="about__container container grid">
             <img src={AboutImg} alt="about" className="about__img" />
             <div className="about__data">
 
                 <p className="about__description">
-                I'm originally from Minnetonka, Minnesota, and currently pursuing a degree in Computer Science at the University of Minnesota-Twin Cities. My journey in the tech world began with web development, where I've honed my skills in both front-end and back-end development. However, my true passion lies in the convergence of advanced mathematics, statistics, and computer science, fueling my aspiration to eventually specialize as a machine learning engineer. I'm enthusiastic about all facets of computer science and eager to explore and innovate within this ever-evolving field.
-
-                When I'm not coding, I'm diving into a game of chess (even if my strategy still needs some work), shooting hoops on the basketball court, or weightlifting with friends.               
+                Hey! I’m Tom, and thank you for taking a look at my personal website. I’m originally from Minnetonka, Minnesota, and now I’m studying Computer Science at the University of Minnesota - Twin Cities. My computer science journey began in my sophomore year of high school with a simple JavaScript class, and ever since then, I’ve loved coding. Currently, I’m working on various subfields of computer science, including full-stack development, machine learning, and social network analysis. In addition to my coding work, I’m the Director of Marketing and Outreach for the AWS Cloud Club and the Scholarship Chair and Class President at Delta Kappa Epsilon. Looking ahead, I aim to further my expertise and take on new challenges in the tech industry, contributing to innovative projects and collaborating with talented teams. When I’m not doing something coding-related, you can find me playing chess, playing basketball, or lifting weights with friends.
                  </p>
                 <a download="" href={CV} className="button button--flex">
                     Download Resume
