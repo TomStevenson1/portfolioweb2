@@ -1,38 +1,59 @@
-# Portfolio Project
-![Screenshot](./src/assets/home.png)
-This is a responsive portfolio site created with ReactJS and plain CSS that implements Swiper for sliding components and EmailJS for contact services.
+# Tom Stevenson's Personal Portfolio
 
-### Project Features:
-- Responsive Layout
-- Fixed Navigation
-- Pop-up Modals
-- Tab Panels
-- Slider + Pagination
-- Contact Form
-- Scroll to Top
+Hey there! Thanks for stopping by my personal portfolio website. I built this site to share a bit of what I’ve been working on and to give you a glimpse into my journey as a developer.
+
+## What You’ll Find
+
+- **A Clean, Responsive Design:** I wanted the site to look good on any device, so it adjusts whether you’re on a phone, tablet, or desktop.
+- **Interactive Features:** I’ve included things like modals and tabs to make the experience a bit more engaging without being over the top.
+- **Simple Navigation:** The navigation is fixed, so you can easily jump between sections, and there’s a button to quickly scroll back to the top if needed.
+- **Contact Form:** There’s a contact form set up with EmailJS so you can easily get in touch if you’d like.
+
+## The Tech I Used
+
+### Frontend
+- **ReactJS:** The backbone of the site, making it dynamic and responsive.
+- **CSS:** Custom styles to keep the design clean and consistent.
+
+### Icons
+- **React Icons:** I used these for a bit of visual flair where it made sense. They’re simple and get the job done.
+  - If you’re curious, you can add them to your project with `npm install react-icons --save`.
+
+### Contact
+- **EmailJS:** I set this up for the contact form so that messages come straight to my inbox. It’s a small touch that makes communication easier. I decided to use EmailJS instead of a simple `mailto` link because it doesn't rely on the user's default email client being properly configured. This ensures that the contact form works seamlessly for everyone, providing a smoother and more reliable user experience.
+
+## How to Run It Locally
+
+If you want to check out the site on your own machine, here’s how you can do it:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/your-portfolio-repo.git
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd your-portfolio-repo
+   ```
+
+3. **Install the dependencies:**
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server:**
+   ```bash
+   npm start
+   ```
+
+   You can then view the site at `http://localhost:3000`.
+
+## Acknowledgments
+
+Though this project may seem small in the grand scheme of things, it's been a long time coming. I've spent several summers trying to create a portfolio website that I can really be proud of, and I’m excited to say that I’ve finally built a website I’m excited to share with others. This project has been an excellent learning experience, and I’m grateful for the journey it took to get here. Thank you to Cryptical Coder for helping me with the design decisions for this website!
 
 
-## React-Icons
-`npm install react-icons --save`
 
-The icons from this project can be found in the *Feather* or *Heroicon* sections of the [React-Icons](https://react-icons.github.io/react-icons/) library. 
+## License
 
-
-## Slider Component
-`npm i swiper`
-
-The slider component of the testimonial section is imported from [SwiperJS](https://swiperjs.com/react) and also utlizes their pagination module.
-
-![Screenshot](./src/assets/swiperjs.png)
-
-
-## Email Component
-`npm install @emailjs/browser --save`
-
-The form modal of the contact section is setup using SDK and an email template from [EmailJS](https://www.emailjs.com/docs/examples/reactjs/).
-
-![Screenshot](./src/assets/emailjs.png)
-
-
-## Credit
-This project was built following a tutorial by Cryptical Coder. It can be found [here](https://www.youtube.com/watch?v=3aCoZudPEKE&t=143s&ab_channel=CrypticalCoder) if you'd like to give it a try.
+This project is licensed under the MIT License. Feel free to explore, use, or contribute.
