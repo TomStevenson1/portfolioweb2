@@ -28,12 +28,12 @@ If you want to check out the site on your own machine, here’s how you can do i
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/your-portfolio-repo.git
+   git clone https://github.com/TomStevenson1/portfolioweb2.git
    ```
 
 2. **Navigate to the project directory:**
    ```bash
-   cd your-portfolio-repo
+   cd portfolioweb2
    ```
 
 3. **Install the dependencies:**
