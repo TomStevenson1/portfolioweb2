@@ -1,11 +1,10 @@
 import React from 'react';
 import "./footer.css";
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
-import { SiLeetcode } from 'react-icons/si';
 
 const Footer = () => {
   // Manually set the last updated date here
-  const lastUpdated = 'July 24, 2024';
+  const lastUpdated = 'June 8, 2025';
 
   return (
     <footer className="footer">
@@ -18,9 +17,6 @@ const Footer = () => {
           <a href="https://www.linkedin.com/in/tomstevenson2/" className="footer__social-icon" target="_blank" rel="noopener noreferrer">
             <FiLinkedin />
           </a>
-          <a href="https://leetcode.com/u/tomjon4340/" className="footer__social-icon" target="_blank" rel="noopener noreferrer">
-            <SiLeetcode />
-          </a>    
         </div>
         <span className="footer__copy">
           Design inspired by Cryptical Coder

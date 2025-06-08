@@ -3,7 +3,7 @@ import "./qualification.css";
 import { HiOutlineAcademicCap, HiOutlineBriefcase, HiOutlineCalendar } from "react-icons/hi";
 
 const Qualification = () => {
-    const [toggleState, setToggleState] = useState(1);
+    const [toggleState, setToggleState] = useState(2);
 
     const toggleTab = (index) => {
         setToggleState(index);
@@ -11,24 +11,24 @@ const Qualification = () => {
 
     return (
         <section className="qualification section">
-            <h2 className="section__title">Previous Experiences</h2>
+            <h2 className="section__title"> Experiences</h2>
             <span className="section__subtitle">My Story</span>
 
             <div className="qualification__container container">
                 <div className="qualification__tabs">
-                    <div 
-                        className={toggleState === 1 ? "qualification__button button--flex qualification__active" : "qualification__button button--flex"} 
-                        onClick={() => toggleTab(1)}
-                    >
-                        <HiOutlineAcademicCap className="qualification__icon" />
-                        Education
-                    </div>
                     <div 
                         className={toggleState === 2 ? "qualification__button button--flex qualification__active" : "qualification__button button--flex"} 
                         onClick={() => toggleTab(2)}
                     >
                         <HiOutlineBriefcase className="qualification__icon" />
                         Experience
+                    </div>
+                    <div 
+                        className={toggleState === 1 ? "qualification__button button--flex qualification__active" : "qualification__button button--flex"} 
+                        onClick={() => toggleTab(1)}
+                    >
+                        <HiOutlineAcademicCap className="qualification__icon" />
+                        Education
                     </div>
                 </div>
 
@@ -80,13 +80,47 @@ const Qualification = () => {
                     </div>
 
                     <div className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
+                        {/* Philips Co-op - Most recent position */}
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Student Software Developer</h3>
+                                <h3 className="qualification__title">Software Engineering Co-op</h3>
+                                <span className="qualification__subtitle">Philips</span>
+                                <div className="qualification__calendar">
+                                    <HiOutlineCalendar className="qualification__calendar-icon" />
+                                    Jan 2025-Present
+                                </div>
+                            </div>
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        {/* UMN Tech Lead - Second most recent */}
+                        <div className="qualification__data">
+                            <div></div>
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+                            <div>
+                                <h3 className="qualification__title">Tech Lead</h3>
                                 <span className="qualification__subtitle">University of Minnesota</span>
                                 <div className="qualification__calendar">
                                     <HiOutlineCalendar className="qualification__calendar-icon" />
-                                    May 2024-Present
+                                    May 2025-Present
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* UMN Junior Full Stack - Previous role at same org */}
+                        <div className="qualification__data">
+                            <div>
+                                <h3 className="qualification__title">Junior Full Stack Engineer</h3>
+                                <span className="qualification__subtitle">University of Minnesota</span>
+                                <div className="qualification__calendar">
+                                    <HiOutlineCalendar className="qualification__calendar-icon" />
+                                    May 2024-May 2025
                                 </div>
                             </div>
                             <div>
@@ -102,7 +136,7 @@ const Qualification = () => {
                             </div>
                             <div>
                                 <h3 className="qualification__title">Undergraduate Researcher</h3>
-                                <span className="qualification__subtitle">U of M Dept of Computer Science</span>
+                                <span className="qualification__subtitle">Dept of Computer Science</span>
                                 <div className="qualification__calendar">
                                     <HiOutlineCalendar className="qualification__calendar-icon" />
                                     May 2024-Present
@@ -136,50 +170,6 @@ const Qualification = () => {
                                     <HiOutlineCalendar className="qualification__calendar-icon" />
                                     Oct 2022-May 2023
                                 </div>
-                            </div>
-                        </div>
-                        {/* Additional Professional Roles */}
-                        <div className="qualification__data">
-                            <div>
-                                <h3 className="qualification__title">Co-founder & CTO</h3>
-                                <span className="qualification__subtitle">RIPL</span>
-                                <div className="qualification__calendar">
-                                    <HiOutlineCalendar className="qualification__calendar-icon" />
-                                    Apr 2023-Jul 2023
-                                </div>
-                            </div>
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-                        </div>
-                        <div className="qualification__data">
-                            <div></div>
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
-                            </div>
-                            <div>
-                                <h3 className="qualification__title">Student Consultant- Project Lead</h3>
-                                <span className="qualification__subtitle">Polaris Inc.</span>
-                                <div className="qualification__calendar">
-                                    <HiOutlineCalendar className="qualification__calendar-icon" />
-                                    Jun 2022-Aug 2022
-                                </div>
-                            </div>
-                        </div>
-                        <div className="qualification__data">
-                            <div>
-                                <h3 className="qualification__title">Frontend Developer</h3>
-                                <span className="qualification__subtitle">Self-employed</span>
-                                <div className="qualification__calendar">
-                                    <HiOutlineCalendar className="qualification__calendar-icon" />
-                                    Jan 2024-May 2024
-                                </div>
-                            </div>
-                            <div>
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
                             </div>
                         </div>
                     </div>

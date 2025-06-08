@@ -34,7 +34,7 @@ const Header = () => {
             </li>
             <li className="nav__item">
               <Link to="qualification" className="nav__link" activeClass="active-link" spy={true} smooth={true} offset={-70} duration={500} onClick={handleToggle}>
-                <i className="nav__icon"></i> Qualification
+                <i className="nav__icon"></i> Experiences
               </Link>
             </li>
             <li className="nav__item">

@@ -1,6 +1,5 @@
 import React from "react";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
-import { SiLeetcode } from "react-icons/si";
 
 const Social = () => {
     return (
@@ -10,9 +9,6 @@ const Social = () => {
             </a>
             <a href="https://www.linkedin.com/in/tomstevenson2/" className="home__social-icon" target="_blank" rel="noopener noreferrer">
                 <FiLinkedin />
-            </a>
-            <a href="https://leetcode.com/u/tomjon4340/" className="home__social-icon" target="_blank" rel="noopener noreferrer">
-                <SiLeetcode />
             </a>
         </div> 
     ); 

@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css";
 import AboutImg from "../../assets/IMG_4671.jpg";
-import CV from "../../assets/Stevenson_Tom_Resume.pdf";
+import CV from "../../assets/Stevenson_Tom_Resume_2026C.pdf";
 //import Info from "./Info";
 
 const About = () => {
@@ -14,7 +14,13 @@ const About = () => {
             <div className="about__data">
 
                 <p className="about__description">
-                Hey! I’m Tom, and thank you for taking a look at my personal website. I’m originally from Minnetonka, Minnesota, and now I’m studying Computer Science at the University of Minnesota - Twin Cities. My computer science journey began in my sophomore year of high school with a simple JavaScript class, and ever since then, I’ve loved coding. Currently, I’m working on various subfields of computer science, including full-stack development, machine learning, and social network analysis. In addition to my coding work, I’m the Director of Marketing and Outreach for the AWS Cloud Club and the Scholarship Chair and Class President at Delta Kappa Epsilon. Looking ahead, I aim to further my expertise and take on new challenges in the tech industry, contributing to innovative projects and collaborating with talented teams. When I’m not doing something coding-related, you can find me playing chess, playing basketball, or lifting weights with friends.
+                Hey! I’m Tom—thanks for checking out my site. I’m from Minnetonka, Minnesota, and I study Computer Science at the University of Minnesota - Twin Cities. I got into coding in high school through a JavaScript class and have been hooked ever since.
+
+Right now, I’m a Software Engineering Co-op at Philips, where I work on embedded systems and streamline development with CI/CD improvements. I also lead full-stack development for the University’s Writing Center website, recently rebuilding a 36,000-line legacy system into a modern React/Express app used by thousands.
+
+On campus, I serve as President of the AWS Cloud Club and as Class President and Scholarship Chair at Delta Kappa Epsilon.
+
+Outside of tech, I’m into basketball, chess, and lifting with friends.
                  </p>
                 <a download="" href={CV} className="button button--flex">
                     Download Resume
