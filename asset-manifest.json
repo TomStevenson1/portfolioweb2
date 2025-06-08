@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolioweb2/static/css/main.d804cda3.css",
+    "main.js": "/portfolioweb2/static/js/main.eb7dd09a.js",
+    "static/media/IMG_4671.jpg": "/portfolioweb2/static/media/IMG_4671.7b98b118705521b4d4cf.jpg",
+    "static/media/IMG_7520.JPG": "/portfolioweb2/static/media/IMG_7520.d5b1025a0b185c1517cf.JPG",
+    "static/media/Stevenson_Tom_Resume_2026C.pdf": "/portfolioweb2/static/media/Stevenson_Tom_Resume_2026C.f61fa85ebfa718481ef0.pdf",
+    "static/media/speech-to-text2-1.jpg": "/portfolioweb2/static/media/speech-to-text2-1.ea8277876811290a1d48.jpg",
+    "static/media/credit-card-fraud-detection-solutions.png": "/portfolioweb2/static/media/credit-card-fraud-detection-solutions.b1f2db4958ca8e07e4d8.png",
+    "static/media/WorkInProgress.jpg": "/portfolioweb2/static/media/WorkInProgress.e66fc3623067678cae5e.jpg",
+    "static/media/a_-search-algorithm-1.png": "/portfolioweb2/static/media/a_-search-algorithm-1.0b2e3431d6c751328472.png",
+    "index.html": "/portfolioweb2/index.html",
+    "main.d804cda3.css.map": "/portfolioweb2/static/css/main.d804cda3.css.map",
+    "main.eb7dd09a.js.map": "/portfolioweb2/static/js/main.eb7dd09a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d804cda3.css",
+    "static/js/main.eb7dd09a.js"
+  ]
+}
