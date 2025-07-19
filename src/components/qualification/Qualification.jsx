@@ -96,7 +96,7 @@ const Qualification = () => {
                             </div>
                         </div>
 
-                        {/* UMN Tech Lead - Second most recent */}
+                        {/* UMN Senior Software Engineer - Second most recent */}
                         <div className="qualification__data">
                             <div></div>
                             <div>
@@ -104,7 +104,7 @@ const Qualification = () => {
                                 <span className="qualification__line"></span>
                             </div>
                             <div>
-                                <h3 className="qualification__title">Tech Lead</h3>
+                                <h3 className="qualification__title">Senior Software Engineer</h3>
                                 <span className="qualification__subtitle">University of Minnesota</span>
                                 <div className="qualification__calendar">
                                     <HiOutlineCalendar className="qualification__calendar-icon" />
@@ -113,10 +113,10 @@ const Qualification = () => {
                             </div>
                         </div>
 
-                        {/* UMN Junior Full Stack - Previous role at same org */}
+                        {/* UMN Junior Software Engineer - Previous role at same org */}
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Junior Full Stack Engineer</h3>
+                                <h3 className="qualification__title">Junior Software Engineer</h3>
                                 <span className="qualification__subtitle">University of Minnesota</span>
                                 <div className="qualification__calendar">
                                     <HiOutlineCalendar className="qualification__calendar-icon" />

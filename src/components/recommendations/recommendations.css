@@ -1,0 +1,137 @@
+.recommendations__container {
+    display: grid;
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.recommendations__card {
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.recommendations__card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.recommendations__header {
+    margin-bottom: 1.5rem;
+}
+
+.recommendations__info {
+    flex: 1;
+}
+
+.recommendations__name {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-semibold);
+    color: var(--title-color);
+    margin-bottom: var(--mb-0-5);
+}
+
+.recommendations__title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    color: var(--title-color-dark);
+    margin-bottom: var(--mb-0-25);
+}
+
+.recommendations__relationship {
+    font-size: var(--small-font-size);
+    color: var(--text-color);
+    font-style: italic;
+}
+
+.recommendations__content {
+    margin-top: 1rem;
+}
+
+.recommendations__letter-content {
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 0.5rem;
+}
+
+.recommendations__letter-content p {
+    font-size: var(--normal-font-size);
+    line-height: 1.7;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.recommendations__letter-content p:last-child {
+    margin-bottom: 0;
+}
+
+/* Custom scrollbar for letter content */
+.recommendations__letter-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+.recommendations__letter-content::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+}
+
+.recommendations__letter-content::-webkit-scrollbar-thumb {
+    background: var(--title-color-dark);
+    border-radius: 3px;
+}
+
+.recommendations__letter-content::-webkit-scrollbar-thumb:hover {
+    background: var(--title-color);
+}
+
+/* BREAK POINTS */
+@media screen and (max-width: 992px) {
+    .recommendations__container {
+        max-width: 100%;
+    }
+    
+    .recommendations__card {
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .recommendations__header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .recommendations__toggle {
+        align-self: flex-end;
+        margin-left: 0;
+    }
+    
+    .recommendations__card {
+        padding: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .recommendations__container {
+        gap: 1.5rem;
+    }
+    
+    .recommendations__card {
+        padding: 1rem;
+    }
+    
+    .recommendations__name {
+        font-size: var(--h3-font-size);
+    }
+    
+    .recommendations__title {
+        font-size: var(--small-font-size);
+    }
+    
+    .recommendations__relationship {
+        font-size: var(--smaller-font-size);
+    }
+} 
