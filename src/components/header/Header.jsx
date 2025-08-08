@@ -38,13 +38,13 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav__item">
-              <Link to="portfolio" className="nav__link" activeClass="active-link" spy={true} smooth={true} offset={-70} duration={500} onClick={handleToggle}>
-                <i className="nav__icon"></i> Portfolio
+              <Link to="recommendations" className="nav__link" activeClass="active-link" spy={true} smooth={true} offset={-70} duration={500} onClick={handleToggle}>
+                <i className="nav__icon"></i> Recommendations
               </Link>
             </li>
             <li className="nav__item">
-              <Link to="recommendations" className="nav__link" activeClass="active-link" spy={true} smooth={true} offset={-70} duration={500} onClick={handleToggle}>
-                <i className="nav__icon"></i> Recommendations
+              <Link to="portfolio" className="nav__link" activeClass="active-link" spy={true} smooth={true} offset={-70} duration={500} onClick={handleToggle}>
+                <i className="nav__icon"></i> Portfolio
               </Link>
             </li>
             <li className="nav__item">
