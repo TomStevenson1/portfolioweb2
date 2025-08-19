@@ -7,7 +7,7 @@ const Data = () => {
             Tom Stevenson
         </h1>
         <h3 className="home__subtitle">
-            Student Software Developer & Undergraduate Researcher 
+            Student Software Developer
         </h3>
         <p className="home__description">
             Driven by a passion to learn all I can and improving lives through tech. 

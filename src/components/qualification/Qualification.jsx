@@ -87,7 +87,7 @@ const Qualification = () => {
                                 <span className="qualification__subtitle">Philips</span>
                                 <div className="qualification__calendar">
                                     <HiOutlineCalendar className="qualification__calendar-icon" />
-                                    Jan 2025-Present
+                                    Jan 2025-Aug 2025
                                 </div>
                             </div>
                             <div>

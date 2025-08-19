@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css";
 import AboutImg from "../../assets/IMG_4671.jpg";
-import CV from "../../assets/Stevenson_Tom_Resume_2026A.pdf";
+import CV from "../../assets/Stevenson_Tom_Resume_2026M.pdf";
 //import Info from "./Info";
 
 const About = () => {
@@ -14,13 +14,13 @@ const About = () => {
             <div className="about__data">
 
                 <p className="about__description">
-                Hey! I’m Tom—thanks for checking out my site. I’m from Minnetonka, Minnesota, and I study Computer Science at the University of Minnesota - Twin Cities. I got into coding in high school through a JavaScript class and have been hooked ever since.
+                Hey! I'm Tom—thanks for checking out my site. I'm from Minnetonka, Minnesota, and I study Computer Science at the University of Minnesota - Twin Cities. I got into coding in high school through a JavaScript class and have been hooked ever since.
 
-Right now, I’m a Software Engineering Co-op at Philips, where I work on embedded systems, streamline CI/CD processes, and image-based machine learning development. I also lead full-stack development for the University’s Writing Center website, recently rebuilding a 36,000-line legacy system into a modern React/Express app used by thousands.
+Right now, I'm a Software Engineering Co-op at Philips, where I work on embedded systems, streamline CI/CD processes, and image-based machine learning development. I also lead full-stack development for the University's Writing Center website, recently rebuilding a 36,000-line legacy system into a modern React/Express app used by thousands.
 
-On campus, I serve as President of the AWS Cloud Club and as Class President and Scholarship Chair at Delta Kappa Epsilon.
+On campus, I serve as President of the AWS Cloud Club and formerly served as Class President and Scholarship Chair at Delta Kappa Epsilon.
 
-Outside of tech, I’m into basketball, chess, learning French, and lifting with friends.
+Outside of tech, I'm into basketball, chess, learning French, and lifting with friends.
                  </p>
                 <a download="" href={CV} className="button button--flex">
                     Download Resume
