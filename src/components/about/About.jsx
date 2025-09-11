@@ -14,13 +14,7 @@ const About = () => {
             <div className="about__data">
 
                 <p className="about__description">
-                Hey! I'm Tom—thanks for checking out my site. I'm from Minnetonka, Minnesota, and I study Computer Science at the University of Minnesota - Twin Cities. I got into coding in high school through a JavaScript class and have been hooked ever since.
-
-Right now, I'm a Software Engineering Co-op at Philips, where I work on embedded systems, streamline CI/CD processes, and image-based machine learning development. I also lead full-stack development for the University's Writing Center website, recently rebuilding a 36,000-line legacy system into a modern React/Express app used by thousands.
-
-On campus, I serve as President of the AWS Cloud Club and formerly served as Class President and Scholarship Chair at Delta Kappa Epsilon.
-
-Outside of tech, I'm into basketball, chess, learning French, and lifting with friends.
+                I’m a Computer Science student at the University of Minnesota and President of the AWS Cloud Club. Previously, I was a Software Engineering Co-op at Philips, where I deployed GitHub runners, optimized CI/CD pipelines, and supported machine learning initiatives in healthcare. I also started as a Junior Developer and was promoted to Tech Lead for the University’s Writing Center, where I led a rebuild of a 36,000-line legacy system into a modern React/Express app serving thousands of students. In addition, I’ve contributed to research in spatial transcriptomics and social network analysis, focusing on large-scale data and machine learning applications. Outside of tech, I’m into basketball, chess, French, and lifting with friends.
                  </p>
                 <a download="" href={CV} className="button button--flex">
                     Download Resume

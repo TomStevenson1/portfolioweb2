@@ -4,7 +4,7 @@ import { FiGithub, FiLinkedin } from 'react-icons/fi';
 
 const Footer = () => {
   // Manually set the last updated date here
-  const lastUpdated = 'August 19, 2025';
+  const lastUpdated = 'September 10, 2025';
 
   return (
     <footer className="footer">
