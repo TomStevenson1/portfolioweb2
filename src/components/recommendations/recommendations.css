@@ -68,6 +68,11 @@
     margin-bottom: 0;
 }
 
+.recommendations__highlight {
+    font-weight: var(--font-semibold);
+    color: var(--title-color);
+}
+
 /* Custom scrollbar for letter content */
 .recommendations__letter-content::-webkit-scrollbar {
     width: 6px;

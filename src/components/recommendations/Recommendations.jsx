@@ -23,7 +23,7 @@ const Recommendations = () => {
               <div className="recommendations__content">
                 <div className="recommendations__letter-content">
                   {letter.split('\n').map((paragraph, index) => (
-                    <p key={index}>{paragraph}</p>
+                    <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }}></p>
                   ))}
                 </div>
               </div>
