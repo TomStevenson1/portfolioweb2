@@ -13,7 +13,7 @@ const Data = () => {
             Driven by a passion to learn all I can and improving lives through tech. 
         </p>
 
-        <a href="#contact" className="button button--flex">
+        <a href="mailto:tomstevvenson@gmail.com" className="button button--flex">
             Say hi!
             <svg
                 class="button__icon"
